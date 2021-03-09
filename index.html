@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interior Consultant devchallenges.io</title>
-    <link rel="icon" href="img/devchallenges.png" type="images/png">
-</head>
-<body>
-    <h1>hello world</h1>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interior Consultant devchallenges.io</title>
+		<link rel="icon" href="img/devchallenges.png" type="images/png" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="header padding-left-right">
+			<div class="header-bar">
+				<div class="this-interior">
+					<p class="this-interior__p">This Interior</p>
+				</div>
+				<input type="checkbox" id="btn-menu" class="btn-checkbox" />
+				<label for="btn-menu" class="btn-icon"></label>
+				<nav class="navegation">
+					<ul class="navegation__ul">
+						<li class="navegation__item">
+							<a href="#" class="navegation__link --active">Home</a>
+						</li>
+						<li class="navegation__item">
+							<a href="#" class="navegation__link">Collection</a>
+						</li>
+						<li class="navegation__item">
+							<a href="#" class="navegation__link">About</a>
+						</li>
+						<li class="navegation__item">
+							<a href="#" class="navegation__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main padding-left-right">
+			<div class="main__content">
+				<h1 class="main-title">Modern interior</h1>
+				<p class="main-description">
+					A full-Service residential & commercial interior design and staging
+					company offering professional organizing & eco&minus;services.
+				</p>
+				<div class="read-more">
+					<a href="#" class="read-more__btn">Read more</a>
+					<div class="read-more__arrow">
+						<span class="material-icons read-more__arrow-right"
+							>arrow_right_alt</span
+						>
+					</div>
+				</div>
+			</div>
+
+			<div class="main__post">
+				<div class="container-img">
+					<img src="img/photo1.png " alt="" />
+				</div>
+				<div class="container-card">
+					<div class="card">
+						<div class="user">
+							<div class="user__photo">
+								<img src="img/photo2.png" alt="autor photo" />
+							</div>
+							<div class="user__description">
+								<h3 class="user__name">Aliza Webber</h3>
+								<p class="user__rol">Interior designer</p>
+							</div>
+						</div>
+						<p class="card__content">Designed in 2020 by Aliza Webber</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			created by
+			<span class="footer__author">Jonathan Ruiz Silva</span>
+			-
+			<span class="footer__page-reference">devChallenges.io</span>
+		</footer>
+	</body>
 </html>
