@@ -31,7 +31,7 @@
 
 ## Overview
 
-![screenshot](https://awesomescreenshot.s3.amazonaws.com/image/1849999/6508102-4416814ac89f1aee5692c8472954d51a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20210309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210309T153810Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=eef673aea57c9f0ea99111f0b67f895c04778e1b53b5b98873ed944df9c6c1b1)
+![screenshot](https://i.ibb.co/RCRDLPM/interior-consultant-devchallenges.png)
 
 ## Responsive Web Developer
 
